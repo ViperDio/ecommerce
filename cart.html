@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cart</title>
+  <link rel = 'stylesheet' href = 'style.css'>
+</head>
+<body>
+  <nav>
+      <ul>
+        <li  id = 'logo' ><a><img src = 'images/icons/logo.png'></a></li>
+        <li><a>Home</a></li>
+        <li><a>Product</a></li>
+        <li><a>About</a></li>
+        <li><a>Contact</a></li>
+        <li><a>Account</a></li>
+        <li><a><img id = 'cart' src = 'images/icons/cart.png'></a></li>
+      </ul>
+    </nav>
+  <div class = 'fullcart'>
+    <div class = 'cart'>
+      <table>
+        <tr class = 'tableheading'>
+          <th id = 'productth'>Product</th>
+          <th>Quantity</th>
+          <th id = 'subtotalth'>Subtotal</th>
+        </tr>
+        <tr>
+          <td class = 'productstuff'>
+            <img src = 'images/products/buy-1.jpeg'>
+            <div>
+              <h4>white shirt</h4>
+              <h6>Price: $50.00</h6>
+              <button>
+                <p>remove</p>
+              </button>
+            </div>
+          </td>
+          <td>
+            <div class = 'cart-field'>
+              <input id = "amountofitem" placeholder = '' type='number' required>
+            </div>
+          </td>
+          <td class = subtotal>
+            <h5>$50</h5>
+          </td>
+        <tr>
+          <td class = 'productstuff'>
+            <img src = 'images/products/buy-2.jpeg'>
+            <div>
+              <h4>white shirt</h4>
+              <h6>Price: $50.00</h6>
+              <button>
+                <p>remove</p>
+              </button>
+            </div>
+          </td>
+          <td>
+            <div class = 'cart-field'>
+              <input id = "amountofitem" placeholder = '' type='number' required>
+            </div>
+          </td>
+          <td class = subtotal>
+            <h5>$50</h5>
+          </td>
+        <tr>
+          <td class = 'productstuff'>
+            <img src = 'images/products/buy-3.jpeg'>
+            <div>
+              <h4>white shirt</h4>
+              <h6>Price: $50.00</h6>
+              <button>
+                <p>remove</p>
+              </button>
+            </div>
+          </td>
+          <td>
+            <div class = 'cart-field'>
+              <input id = "amountofitem" placeholder = '' type='number' required>
+            </div>
+          </td>
+          <td class = subtotal>
+            <h5>$50</h5>
+          </td>
+    </table>
+   </div>
+   <div class = 'finaltotal'>
+     <table>
+       <tr>
+         <td>
+          <h4>Subtotal</h4>
+         </td>
+         <td class = 'finaltotalstuff'>
+          <h5>$200</h5>
+         </td>
+       </tr>
+       <tr>
+         <td>
+          <h4>Tax</h4>
+         </td>
+         <td class = 'finaltotalstuff'>
+          <h5>$30</h5>
+         </td>
+       </tr>
+       <tr>
+         <td>
+          <h4>Total</h4>
+         </td>
+         <td class = 'finaltotalstuff'>
+          <h5>$230</h5>
+         </td>
+       </tr>
+     </table>
+   </div>
+  </div>
+<!-- <div>
+      <h3>Subtotal</h3>
+      <h3>$200</h3>
+      <h3>Tax</h3>
+      <h3>$30</h3>
+      <h3>Total</h3>
+      <h3>$230</h3>
+  </div>                -->
+  <section id = 'footer'>
+    <div class = 'footercont'>
+      <div id = 'app'> 
+        <h4>Download Our App</h4>
+        <p>Download App for Android
+and ios mobile phone</p> 
+        <a><img src = 'images/icons/app-store.png'></a>
+        <a><img src = 'images/icons/play-store.png'></a>
+      </div>
+      <div>
+        <img src = 'images/icons/logo.png'>
+        <p>Lorem, ipsum dolor sit amet consectetur
+adipisicing elit. Porro, eum?</p>
+      </div>
+      <div>
+        <h4>Useful Links</h4>
+        <a><p>Coupons</p></a>
+        <a><p>Blog Post</p></a>
+        <a><p>Return Policy</p></a>
+        <a><p>Join Affiliate</p></a>
+      </div>
+      <div>
+        <h4>Follow us</h4>
+        <a><p>Facebook</p></a>
+        <a><p>Twitter</p></a>
+        <a><p>Instagram</p></a>
+        <a><p>YouTube</p></a>
+      </div>
+    </div>
+    <hr>
+    <p><span>&copy;</span>2023 - Wardrobe.com</p>
+  </section>
+</body>
+</html>
